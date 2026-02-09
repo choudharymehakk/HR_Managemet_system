@@ -1,16 +1,79 @@
-# React + Vite
+# HRMS Lite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HRMS Lite is a lightweight, web-based Human Resource Management System built as part of a full-stack coding assignment.
 
-Currently, two official plugins are available:
+The application allows an admin to manage employee records and track daily attendance through a clean, professional interface.  
+The system focuses on essential HR operations with a simple and usable design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌐 Live Application
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frontend (Admin UI):  
+👉 [https://YOUR-FRONTEND.vercel.app](https://hr-managemet-system.vercel.app/)
 
-## Expanding the ESLint configuration
+Backend API (FastAPI):  
+👉 [https://YOUR-BACKEND.onrender.com](https://hrms-lite-backend-h1w7.onrender.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+---
+
+## 📂 Repositories
+
+- **Backend Repository:**  
+ [ https://github.com/YOUR_USERNAME/hrms-lite-backend](https://github.com/choudharymehakk/hrms-lite-backend.git)
+
+---
+
+## ✨ Features
+
+### Employee Management
+- Add a new employee with:
+  - Employee ID (unique)
+  - Full Name
+  - Email Address
+  - Department
+- View list of all employees
+
+### Attendance Management
+- Mark daily attendance (Present / Absent)
+- View attendance records for each employee
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React (Vite)
+- JavaScript
+- Axios
+- CSS (custom styling + animations)
+
+### Backend
+- FastAPI
+- Python
+- SQLAlchemy
+- SQLite
+- Uvicorn
+
+### Deployment
+- Frontend: **Vercel**
+- Backend: **Render**
+
+---
+
+## 🧩 Application Flow
+
+1. Admin uses the frontend UI to manage employees and attendance.
+2. Frontend communicates with backend via RESTful APIs.
+3. Backend handles validation, persistence, and business logic.
+4. Data is stored using SQLite for simplicity.
+
+---
+
+## 🏃 Run Frontend Locally
+
+```bash
+npm install
+npm run dev
