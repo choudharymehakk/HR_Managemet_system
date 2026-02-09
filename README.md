@@ -71,7 +71,17 @@ Backend API (FastAPI):
 4. Data is stored using SQLite for simplicity.
 
 ---
+⚠️ Assumptions & Limitations
 
+Single admin user (no authentication)
+
+Leave management and payroll are out of scope
+
+SQLite is used for simplicity and can be replaced with PostgreSQL without major changes
+
+Designed as a lightweight internal HR tool
+
+---
 ## 🏃 Run Frontend Locally
 
 ```bash
